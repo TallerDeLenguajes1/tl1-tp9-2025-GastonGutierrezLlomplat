@@ -12,3 +12,4 @@ C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorD
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.pdb
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\ref\LectorDirectorio.dll
+C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.sourcelink.json

@@ -40,6 +40,31 @@ foreach (var archivo in archivos)
     Console.WriteLine(archivo);
 }
 
-// Creación del csv
-File.Create($"{directorio}\\reporte.csv");
-
+try
+{
+    // Creación del csv
+    File.Create($"{directorio}\\reporte.csv");
+    // Path del csv
+    string csvPath = Path.Combine(directorio, "reporte_archivos.csv");
+    using (StreamWriter writer = new StreamWriter(csvPath))
+    {
+        writer.WriteLine("Nombre del Archivo;Tamaño (KB);Fecha de Última Modificación");
+        foreach (var archivo in archivos)
+        {
+            FileInfo info = new FileInfo(archivo);
+            string nombre = info.Name;
+            double tamañoKB = Math.Round((double)info.Length / 1024, 2);
+            string fechaMod = info.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss");
+            writer.WriteLine($"{nombre};{tamañoKB};{fechaMod}");
+        }
+    }
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("");
+    Console.WriteLine($"Archivo CSV creado exitosamente en: {csvPath}");
+    Console.ForegroundColor = ConsoleColor.Gray;
+}
+catch (Exception)
+{
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("El Archivo CSV no fue creado con éxito.");
+}
