@@ -1,8 +1,10 @@
 ﻿Console.WriteLine("-- LECTOR DE DIRECTORIO --");
-Console.Write("Ingrese el path del directorio que desea analizar: ");
 
+// 1. Ingresar la ruta
+Console.Write("Ingrese el path del directorio que desea analizar: ");
 string directorio = Console.ReadLine();
 
+// 2. Verificar si la ruta exite
 while (!Directory.Exists(directorio))
 {
     Console.ForegroundColor = ConsoleColor.Red;
@@ -12,59 +14,59 @@ while (!Directory.Exists(directorio))
 }
 
 Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine("Directorio encontrado correctamente.");
-Console.WriteLine("");
+Console.WriteLine("\nDirectorio encontrado correctamente.\n");
+
+// 3. Listar las carpetas
 Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine("El directorio ingresado contiene estas carpetas: ");
-Console.WriteLine("");
+Console.WriteLine("El directorio ingresado contiene estas carpetas:\n");
 
 string[] carpetas = Directory.GetDirectories(directorio);
-
-
 Console.ForegroundColor = ConsoleColor.White;
 foreach (var carpeta in carpetas)
 {
     Console.WriteLine(carpeta);
 }
 
-Console.WriteLine("");
+// 4. Listar los archivos
 Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine("El directorio ingresado contiene estos archivos: ");
-Console.WriteLine("");
+Console.WriteLine("\nEl directorio ingresado contiene estos archivos:\n");
 
 string[] archivos = Directory.GetFiles(directorio);
-
 Console.ForegroundColor = ConsoleColor.White;
 foreach (var archivo in archivos)
 {
     Console.WriteLine(archivo);
 }
 
+// 5. Crear el csv
 try
 {
-    // Creación del csv
-    File.Create($"{directorio}\\reporte.csv");
-    // Path del csv
-    string csvPath = Path.Combine(directorio, "reporte_archivos.csv");
-    using (StreamWriter writer = new StreamWriter(csvPath))
+    string csvRuta = Path.Combine(directorio, "reporte_archivos.csv");
+
+    using (StreamWriter writer = new StreamWriter(csvRuta))
     {
         writer.WriteLine("Nombre del Archivo;Tamaño (KB);Fecha de Última Modificación");
+
         foreach (var archivo in archivos)
         {
             FileInfo info = new FileInfo(archivo);
             string nombre = info.Name;
             double tamañoKB = Math.Round((double)info.Length / 1024, 2);
             string fechaMod = info.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss");
+
             writer.WriteLine($"{nombre};{tamañoKB};{fechaMod}");
         }
     }
+
     Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine("");
-    Console.WriteLine($"Archivo CSV creado exitosamente en: {csvPath}");
-    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine($"\nArchivo CSV creado exitosamente en: {csvRuta}");
 }
-catch (Exception)
+catch (Exception e)
 {
     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("El Archivo CSV no fue creado con éxito.");
+    Console.WriteLine("\nEl Archivo CSV no fue creado con éxito.");
+    Console.WriteLine("Error: " + e.Message);
 }
+
+// 6. Restaurar color
+Console.ForegroundColor = ConsoleColor.Gray;

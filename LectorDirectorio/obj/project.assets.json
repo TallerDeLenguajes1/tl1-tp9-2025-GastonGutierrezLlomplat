@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
+    "C:\\Users\\gasto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\usoArchivos\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
+      "projectUniqueName": "D:\\Facultad Gastón\\TALLERDELENGUAJESI\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
       "projectName": "LectorDirectorio",
-      "projectPath": "C:\\Users\\Alumno\\Desktop\\usoArchivos\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Desktop\\usoArchivos\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\obj\\",
+      "projectPath": "D:\\Facultad Gastón\\TALLERDELENGUAJESI\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
+      "packagesPath": "C:\\Users\\gasto\\.nuget\\packages\\",
+      "outputPath": "D:\\Facultad Gastón\\TALLERDELENGUAJESI\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gasto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -61,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

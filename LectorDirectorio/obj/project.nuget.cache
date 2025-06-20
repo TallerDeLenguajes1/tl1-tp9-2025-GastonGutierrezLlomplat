@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LqXF3a/9JS7/HOYQjFIYXkcOMXdNuvTIUV5f0/beleJg7p1SfRBUdUWotRFieXY7NxLxp3zy0qP5VuOLCU8rYQ==",
+  "dgSpecHash": "691RUrRAYgM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\usoArchivos\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Facultad Gastón\\TALLERDELENGUAJESI\\tl1-tp9-2025-GastonGutierrezLlomplat\\LectorDirectorio\\LectorDirectorio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gasto\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\gasto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\gasto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\gasto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.16\\microsoft.netcore.app.host.win-x64.8.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

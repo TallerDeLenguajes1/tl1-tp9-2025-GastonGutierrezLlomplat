@@ -13,3 +13,18 @@ C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorD
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\ref\LectorDirectorio.dll
 C:\Users\Alumno\Desktop\usoArchivos\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.sourcelink.json
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.exe
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.deps.json
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.runtimeconfig.json
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.dll
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.pdb
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.AssemblyInfoInputs.cache
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.AssemblyInfo.cs
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.csproj.CoreCompileInputs.cache
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.sourcelink.json
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.dll
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\refint\LectorDirectorio.dll
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.pdb
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.genruntimeconfig.cache
+D:\Facultad Gastón\TALLERDELENGUAJESI\tl1-tp9-2025-GastonGutierrezLlomplat\LectorDirectorio\obj\Debug\net8.0\ref\LectorDirectorio.dll
